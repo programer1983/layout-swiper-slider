@@ -43,3 +43,18 @@ body {
     width: 100%;
     height: 100%;
 }
+
+.swiper-button-prev {
+    background-color: #bb8b5f30;
+    left: 20px;
+}
+
+.swiper-button-next {
+    background-color: #bb8b5f30;
+    right: 20px;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    font-size: 20px;
+    color: #bb8c5f;
+}
