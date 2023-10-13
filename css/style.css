@@ -58,3 +58,16 @@ body {
     font-size: 20px;
     color: #bb8c5f;
 }
+
+.swiper-pagination-bullet {
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    border-radius: 0;
+    border: 2px solid #bb8c5f;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #bb8c5f;
+}
