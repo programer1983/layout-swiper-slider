@@ -23,6 +23,8 @@ const swiper = new Swiper('.swiper', {
   const gallary = new Swiper('.gallary', {
     direction: 'horizontal',
     loop: true,
+    spaceBetween: 20,
+    slidesPerGroup: 3,
     slidesPerView: 3,
   
     navigation: {
