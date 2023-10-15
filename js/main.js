@@ -3,7 +3,9 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     speed: 1500,
     effect: "slider",
-
+    // initialSlide: 2,
+   
+    freeMode: true,
     slidesPerView: 2,
     centeredSlides: true,
   
