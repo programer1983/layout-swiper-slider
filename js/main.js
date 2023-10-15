@@ -2,7 +2,7 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
     speed: 1500,
-    effect: "slider",
+    effect: "coverflow",
     // initialSlide: 2,
    
     // freeMode: true,
