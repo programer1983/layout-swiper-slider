@@ -70,3 +70,72 @@ body {
 .swiper-pagination-bullet-active {
     background-color: #bb8c5f;
 }
+
+
+/* ====== INNER SWIPER ================================================== */
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1180px;
+    width: 100%;
+    height: auto;
+    margin: 56px auto;
+    position: relative;
+}
+
+.gallary {
+    display: flex;
+    max-width: 1180px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    box-sizing: content-box;
+}
+
+.foto-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.foto-slide img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-height: 380px;
+
+}
+
+.swiper-slide {
+}
+
+.btn-prev, .btn-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    width: 40px;
+    height: 20px;
+    z-index: 10;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.btn-prev {
+    left: -25px;
+}
+
+.btn-next {
+    right: -65px;
+}

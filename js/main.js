@@ -3,9 +3,7 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     speed: 1500,
     effect: "coverflow",
-    // initialSlide: 2,
    
-    // freeMode: true,
     slidesPerView: 2,
     centeredSlides: true,
   
@@ -18,7 +16,17 @@ const swiper = new Swiper('.swiper', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    // autoplay: {
-    //   delay: 1000,
-    // }
+  });
+
+  
+  
+  const gallary = new Swiper('.gallary', {
+    direction: 'horizontal',
+    loop: true,
+    slidesPerView: 3,
+  
+    navigation: {
+      nextEl: '.btn-next"',
+      prevEl: '.btn-prev',
+    },
   });
