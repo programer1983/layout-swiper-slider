@@ -110,7 +110,6 @@ body {
     width: auto;
     height: auto;
     max-height: 380px;
-
 }
 
 .swiper-slide {
@@ -138,4 +137,16 @@ body {
 
 .btn-next {
     right: -65px;
+}
+
+@media (max-width: 1250px){
+    .inner, .gallary {
+        max-width: 850px;
+    }
+}
+
+@media (max-width: 950px){
+    .inner, .gallary {
+        max-width: 320px;
+    }
 }
