@@ -5,7 +5,7 @@ const swiper = new Swiper('.swiper', {
     effect: "slider",
     // initialSlide: 2,
    
-    freeMode: true,
+    // freeMode: true,
     slidesPerView: 2,
     centeredSlides: true,
   

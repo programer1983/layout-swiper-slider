@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper {
-    padding: 0 20px;
+    /* padding: 0 20px; */
     flex-grow: 1;
 }
 
@@ -24,7 +24,7 @@ body {
 
 .swiper {
   display: flex;
-  max-width: 800px;
+  /* max-width: 800px; */
   width: 100%;
   height: auto;
   margin: 0 auto;
