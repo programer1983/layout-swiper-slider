@@ -2,7 +2,7 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
     speed: 1500,
-    effect: "fade",
+    effect: "cards",
   
     pagination: {
       el: '.swiper-pagination',
