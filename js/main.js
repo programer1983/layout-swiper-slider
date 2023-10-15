@@ -2,6 +2,7 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
     speed: 1500,
+    effect: "flip",
   
     pagination: {
       el: '.swiper-pagination',
