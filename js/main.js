@@ -2,7 +2,9 @@ const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
     speed: 1500,
-    effect: "cards",
+    effect: "slider",
+
+    slidesPerView: 2,
   
     pagination: {
       el: '.swiper-pagination',
